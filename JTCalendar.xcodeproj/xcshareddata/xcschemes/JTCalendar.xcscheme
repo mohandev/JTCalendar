@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "163901681FD4975200C554BC"
+               BlueprintIdentifier = "163901BE1FD49C1700C554BC"
                BuildableName = "JTCalendar.framework"
                BlueprintName = "JTCalendar"
                ReferencedContainer = "container:JTCalendar.xcodeproj">
@@ -26,7 +26,6 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
@@ -37,7 +36,6 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      language = ""
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
@@ -47,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "163901681FD4975200C554BC"
+            BlueprintIdentifier = "163901BE1FD49C1700C554BC"
             BuildableName = "JTCalendar.framework"
             BlueprintName = "JTCalendar"
             ReferencedContainer = "container:JTCalendar.xcodeproj">
@@ -65,7 +63,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "163901681FD4975200C554BC"
+            BlueprintIdentifier = "163901BE1FD49C1700C554BC"
             BuildableName = "JTCalendar.framework"
             BlueprintName = "JTCalendar"
             ReferencedContainer = "container:JTCalendar.xcodeproj">
