@@ -61,6 +61,9 @@
 
 - (IBAction)didChangeModeTouch
 {
+    NSLocale *locale = [NSLocale localeWithLocaleIdentifier:NSLocale.availableLocaleIdentifiers.firstObject];
+    [_calendarManager updateLocale:locale andTimeZone:[NSTimeZone localTimeZone] andReload:YES];
+    
     _calendarManager.settings.weekModeEnabled = !_calendarManager.settings.weekModeEnabled;
     [_calendarManager reload];
     

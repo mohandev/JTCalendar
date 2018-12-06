@@ -39,6 +39,14 @@
     _scrollManager.manager = self;
 }
 
+- (void)updateLocale:(NSLocale *)locale andTimeZone:(NSTimeZone *)timeZone andReload: (BOOL)reload {
+    _dateHelper = [[JTDateHelper alloc] initWithLocale:locale andTimeZone:timeZone];
+    
+    if (reload) {
+        [self reload];
+    }
+}
+
 - (void)setContentView:(UIScrollView<JTContent> *)contentView
 {
     [_contentView setManager:nil];

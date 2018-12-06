@@ -34,6 +34,7 @@
 @property (nonatomic, readonly) JTCalendarScrollManager *scrollManager;
 
 - (instancetype)initWithLocale:(NSLocale *)locale andTimeZone:(NSTimeZone *)timeZone;
+- (void)updateLocale:(NSLocale *)locale andTimeZone:(NSTimeZone *)timeZone andReload: (BOOL)reload;
 
 - (NSDate *)date;
 - (void)setDate:(NSDate *)date;
